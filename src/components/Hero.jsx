@@ -19,7 +19,7 @@ const Hero = ({ isDark }) => {
 
           {/* Role pills */}
           <div className="flex flex-wrap gap-2 mb-8">
-            {['Web Developer', 'UI/UX Designer', 'Full-Stack Developer'].map((role) => (
+            {['Web Developer', 'UI/UX Designer', 'Front-End Developer'].map((role) => (
               <span key={role} className="text-[#6b6866] border border-[#1e1e1e] rounded-full px-4 py-1.5 text-[0.7rem] hover:border-[#c8f04d] hover:text-[#c8f04d] transition-all cursor-default">
                 {role}
               </span>
@@ -28,7 +28,7 @@ const Hero = ({ isDark }) => {
 
           {/* Tagline */}
           <p className={`text-base md:text-lg leading-relaxed max-w-lg mb-10 ${isDark ? 'text-[#6b6866]' : 'text-[#888580]'}`}>
-            I craft <strong className={`font-semibold ${isDark ? 'text-[#f0ede8]' : 'text-[#1a1a1a]'}`}>meaningful digital experiences</strong> — from clean, responsive interfaces to full-stack solutions that solve real problems. Passionate about turning ideas into products that are both <strong className={`font-semibold ${isDark ? 'text-[#f0ede8]' : 'text-[#1a1a1a]'}`}>beautiful and functional</strong>.
+            An aspiring  <strong className={`font-semibold ${isDark ? 'text-[#f0ede8]' : 'text-[#1a1a1a]'}`}>front-end web developer</strong> — passionate about creating responsive and user-focused web experiences. Committed to learning, improving, and building  <strong className={`font-semibold ${isDark ? 'text-[#f0ede8]' : 'text-[#1a1a1a]'}`}>solutions that make a real impact.</strong>.
           </p>
 
           {/* CTA Buttons */}
@@ -65,7 +65,7 @@ const Hero = ({ isDark }) => {
         />
           <div>
             <p className="font-bold text-base text-[#f0ede8]">Marlon I. Batugal Jr.</p>
-            <p className="text-[#c8f04d] text-[0.68rem] tracking-wider mt-1">Full-Stack Developer & UI/UX</p>
+            <p className="text-[#c8f04d] text-[0.68rem] tracking-wider mt-1">Front-End, Web Developer & UI/UX</p>
           </div>
           <div className="w-full h-px bg-[#1e1e1e]"></div>
           <div className="flex flex-col gap-2 w-full">

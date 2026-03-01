@@ -20,7 +20,7 @@ const Projects = ({ isDark }) => {
             <div className="p-6">
               <p className="text-[#c8f04d] text-[0.65rem] tracking-widest uppercase mb-1">Thesis Project</p>
               <p className={`text-lg font-bold mb-1 ${text}`}>Guidance Mate</p>
-              <p className={`text-[0.7rem] mb-3 ${muted}`}>Role: Full Stack Developer — built the entire system and UI independently</p>
+              <p className={`text-[0.7rem] mb-3 ${muted}`}>Role: Documentation — Resoponsible for the project's documentation and setup instructions</p>
               <p className={`text-[0.85rem] leading-relaxed mb-4 ${muted}`}>
                 A web-based mental health and counseling support system for students and staff at PDM. Tracks post-session engagement and emotional status using mood check-ins and a Random Forest model.
               </p>

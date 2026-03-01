@@ -44,7 +44,7 @@ const About = ({ isDark }) => {
             <h2 className={`text-4xl font-extrabold mb-6 leading-tight ${text}`}>About Me</h2>
 
             <p className={`text-[0.95rem] leading-relaxed mb-4 ${muted}`}>
-              Hi! I'm <strong className={isDark ? 'text-[#f0ede8]' : 'text-[#1a1a1a]'}>Marlon I. Batugal Jr.</strong>, a fresh graduate and aspiring full-stack developer from Marilao, Bulacan. I have a passion for building things on the web — from crafting clean user interfaces to developing functional back-end systems.
+              Hi! I'm <strong className={isDark ? 'text-[#f0ede8]' : 'text-[#1a1a1a]'}>Marlon I. Batugal Jr.</strong>, a fresh graduate and aspiring front-end developer from Marilao, Bulacan. I have a passion for building things on the web — from crafting clean user interfaces to developing functional back-end systems.
             </p>
             <p className={`text-[0.95rem] leading-relaxed mb-4 ${muted}`}>
               My journey in tech started during my Senior High School years under the <strong className={isDark ? 'text-[#f0ede8]' : 'text-[#1a1a1a]'}>TVL ICT strand</strong>, and grew deeper as I pursued my <strong className={isDark ? 'text-[#f0ede8]' : 'text-[#1a1a1a]'}>BS Computer Science</strong> degree. I love turning ideas into real, working products — and I'm always eager to learn new technologies along the way.
